@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const promptUser = () => {
     return inquirer.prompt([
@@ -75,7 +76,7 @@ const promptUser = () => {
             message: 'Please enter your email.'
         },
     ])
-}
+};
 
 promptUser().then(answers => console.log(answers));
 
