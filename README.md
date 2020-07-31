@@ -1,3 +1,28 @@
-# Professional README Generator Starter Code
+# Run Buddy
+  
+  ## Description
+  A site for runners to sign up for races.
 
-[How to create a Professional README](./readme-guide.md)
+  ## Table of Contents
+  - [Description] (#description)
+  - [Installation] (#install)
+  - [Usage] (#usage)
+  - [Contributing] (#contribution)
+  - [Tests] (#test)
+  - [Questions] (#questions)
+
+  ## Installation
+  With the node.js
+
+  ## Usage
+  To generate README files
+
+  ## Contributing
+  N
+
+  ## Tests
+  N/A
+
+  // ## Questions
+  // undefined
+

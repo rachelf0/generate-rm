@@ -1,14 +1,12 @@
-// array of questions for user
-// const questions = [
-    
-// ];
-
 const fs = require('fs');
 const inquirer = require('inquirer');
+console.log(inquirer);
 const generateMarkdown = require('./utils/generateMarkdown');
 
-const promptUser = () => {
-    return inquirer.prompt([
+// const promptUser = () => {
+//     return inquirer.prompt([
+
+const questions = [
         {
             type: 'input',
             name: 'title',
@@ -20,9 +18,13 @@ const promptUser = () => {
             message: 'Please give a description of your project.'
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'table',
-            message: 'Would you like to include a table of contents?'
+            message: 'Would you like to include a table of contents?',
+            choices: [
+                "A",
+                "B"
+            ]
         },
         {
             type: 'input',
@@ -49,10 +51,12 @@ const promptUser = () => {
             ]
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'contribution',
             message: 'Would you like others to contribute to this project?',
-            default: false
+            choices: [
+
+            ]
         },
         {
             type: 'input',
@@ -63,7 +67,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'test',
-            message: 'Please provide text examples for your project.'
+            message: 'Please provide test examples for your project.'
         },
         {
             type: 'input',
@@ -74,20 +78,26 @@ const promptUser = () => {
             type: 'input',
             name: 'email',
             message: 'Please enter your email.'
-        },
-    ])
+        }
+    ];
+
+// promptUser().then(answers => console.log(answers));
+
+// function to initialize program
+function init() {
+    inquirer.prompt(questions).then(function(data) {
+// function to write README file
+fs.writeFile('README.md', generateMarkdown(data), err => {
+    if (err) throw err;
+    console.log("File has been generated.");
+    });
+  })
 };
 
-promptUser().then(answers => console.log(answers));
 
 // // function to write README file
 // function writeToFile(fileName, data) {
 // }
 
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
+// function call to initialize program
+init();
