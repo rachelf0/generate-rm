@@ -18,15 +18,6 @@ const questions = [
             message: 'Please give a description of your project.'
         },
         {
-            type: 'list',
-            name: 'table',
-            message: 'Would you like to include a table of contents?',
-            choices: [
-                "A",
-                "B"
-            ]
-        },
-        {
             type: 'input',
             name: 'install',
             message: 'How can someone install your project?'
@@ -55,19 +46,23 @@ const questions = [
             name: 'contribution',
             message: 'Would you like others to contribute to this project?',
             choices: [
-
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            type: 'list',
+            name: 'test',
+            message: 'Would you like to run a test?',
+            choices: [
+                "Yes",
+                "No"
             ]
         },
         {
             type: 'input',
-            name: 'testConfirm',
-            message: 'Would you like to include any test examples for your project?',
-            default: false
-        },
-        {
-            type: 'input',
-            name: 'test',
-            message: 'Please provide test examples for your project.'
+            name: 'questions',
+            message: 'Who can I contact if I have an issue?'
         },
         {
             type: 'input',

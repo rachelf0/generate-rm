@@ -26,7 +26,10 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  // ${data.questions}
+  ${data.questions} <br />
+  <br /> Find me on GitHub: [${data.username}] (https://github.com/${data.username}) <br />
+  <br /> If you have any questions, please email me at: ${data.email} <br />
+  <br /> This README was generated with ❤️ by [README-generator] (https://github.com/rachelf0/generate-rm)
 
 `;
 }
