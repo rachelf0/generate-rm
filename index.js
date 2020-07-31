@@ -19,7 +19,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'install',
+            name: 'installation',
             message: 'How can someone install your project?'
         },
         {
@@ -42,27 +42,19 @@ const questions = [
             ]
         },
         {
-            type: 'list',
-            name: 'contribution',
-            message: 'Would you like others to contribute to this project?',
-            choices: [
-                "Yes",
-                "No"
-            ]
+            type: 'input',
+            name: 'contributing',
+            message: 'Who are the contributors for this project?'
         },
         {
-            type: 'list',
-            name: 'test',
-            message: 'Would you like to run a test?',
-            choices: [
-                "Yes",
-                "No"
-            ]
+            type: 'input',
+            name: 'tests',
+            message: 'Is there a test included?'
         },
         {
             type: 'input',
             name: 'questions',
-            message: 'Who can I contact if I have an issue?'
+            message: 'What do I do if I have an issue?'
         },
         {
             type: 'input',

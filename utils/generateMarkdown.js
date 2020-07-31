@@ -2,34 +2,40 @@
 function generateMarkdown(data) {
   return `# ${data.title}
   
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+  
   ## Description
   ${data.description}
 
   ## Table of Contents
   - [Description] (#description)
-  - [Installation] (#install)
+  - [Installation] (#installation)
   - [Usage] (#usage)
-  - [Contributing] (#contribution)
-  - [Tests] (#test)
+  - [Contributing] (#contributing)
+  - [Tests] (#tests)
   - [Questions] (#questions)
 
   ## Installation
-  ${data.install}
+  ${data.installation}
 
   ## Usage
   ${data.usage}
 
+  ## License
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  This application is covered by the ${data.license} license. 
+
   ## Contributing
-  ${data.contribution}
+  ${data.contributing}
 
   ## Tests
-  ${data.test}
+  ${data.tests}
 
   ## Questions
-  ${data.questions} <br />
-  <br /> Find me on GitHub: [${data.username}] (https://github.com/${data.username}) <br />
-  <br /> If you have any questions, please email me at: ${data.email} <br />
-  <br /> This README was generated with ❤️ by [README-generator] (https://github.com/rachelf0/generate-rm)
+  ${data.questions}
+  Find me on GitHub: [${data.username}] (https://github.com/${data.username}) 
+  If you have any questions, please email me at: ${data.email}
+  This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)
 
 `;
 }

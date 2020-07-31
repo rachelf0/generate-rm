@@ -1,28 +1,37 @@
-# README.md Generator
+# Run Buddy
+  
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
   
   ## Description
-  A node.js application that uses input from inquirer to populate a README.md file for user repository.
+  An app for runners to sign up for races.
 
   ## Table of Contents
   - [Description] (#description)
-  - [Installation] (#install)
+  - [Installation] (#installation)
   - [Usage] (#usage)
-  - [Contributing] (#contribution)
-  - [Tests] (#test)
+  - [Contributing] (#contributing)
+  - [Tests] (#tests)
   - [Questions] (#questions)
 
   ## Installation
-  npm init / npm install inquirer
+  Running npm install inquirer
 
   ## Usage
-  Run the following cammand at the root of your project and answer the prompted questions: node index.js
+  For runners to network
+
+  ## License
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  This application is covered by the MIT license. 
 
   ## Contributing
-  Yes
+  Rachel Fritz
 
   ## Tests
-  npm run test
+  No tests are included.
 
   ## Questions
-  rachelfritz0@gmail.com
+  Contact rachelfritz0@gmail.com
+  Find me on GitHub: [rachelf0] (https://github.com/rachelf0) 
+  If you have any questions, please email me at: rachelfritz0@gmail.com
+  This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)
 
