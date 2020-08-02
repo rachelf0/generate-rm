@@ -21,9 +21,7 @@
   Used to generate a README file for any project
 
   ## Demo
-  - [![video demo of application]](./src/README.md-Video.mp4)(https://drive.google.com/file/d/1WHBmsVsJuXTG4BEuK8jpRx1j5G66RaKF/view)
-
-  ![Fritz README Generator](./src/README-Generator.gif)
+  [![Screencastify Video]({./src/readmeScreenshot.png})]({https://drive.google.com/file/d/1E3qW1mEb8-Ex3HJqxizWE0vVeGbowPGO/view} "README.md Generator Video")a
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
