@@ -1,23 +1,26 @@
-# Run Buddy
+# README Generator
   
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
   
   ## Description
-  An app for runners to sign up for races.
+  A node.js application that creates a generated README.md file
 
   ## Table of Contents
-  - [Description] (#description)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [Contributing] (#contributing)
-  - [Tests] (#tests)
-  - [Questions] (#questions)
+  - [Description] (#-description)
+  - [Installation] (#-installation)
+  - [Usage] (#-usage)
+  - [Contributing] (#-contributing)
+  - [Tests] (#-tests)
+  - [Questions] (#-questions)
 
   ## Installation
-  Running npm install inquirer
+  Run npm install inquirer to install
 
   ## Usage
-  For runners to network
+  Used to generate a README file for any project
+
+  ## Demo
+  ![Watch-video] (https://drive.google.com/file/d/1WHBmsVsJuXTG4BEuK8jpRx1j5G66RaKF/view)
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -27,7 +30,7 @@
   Rachel Fritz
 
   ## Tests
-  No tests are included.
+  No tests are included on this project
 
   ## Questions
   Contact rachelfritz0@gmail.com

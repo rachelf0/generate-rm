@@ -74,7 +74,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(function(data) {
 // function to write README file
-fs.writeFile('README.md', generateMarkdown(data), err => {
+fs.writeFile('./dist/README.md', generateMarkdown(data), err => {
     if (err) throw err;
     console.log("File has been generated.");
     });
