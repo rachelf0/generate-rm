@@ -1,23 +1,24 @@
-# README Generator
+# README.md Generator
   
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
   
   ## Description
-  A node.js application that creates a generated README.md file to the dist directory
+  A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory.
 
   ## Table of Contents
-  - [Description] (#description)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [Contributing] (#contributing)
-  - [Tests] (#tests)
-  - [Questions] (#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contributing)
+  - [Test](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
   npm install inquirer is required
 
   ## Usage
-  Used to produce a quality README file for any project
+  A class assingment
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -27,10 +28,10 @@
   Rachel Fritz
 
   ## Tests
-  No tests are included for this project
+  No tests are included
 
   ## Questions
-  Contact rachelfritz0@gmail.com
+  Reach out to Rachel Fritz
   Find me on GitHub: [rachelf0] (https://github.com/rachelf0) 
   If you have any questions, please email me at: rachelfritz0@gmail.com
   This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)

@@ -6,12 +6,13 @@
   A node.js application that creates a generated README.md file
 
   ## Table of Contents
-  - [Description] (#-description)
-  - [Installation] (#-installation)
-  - [Usage] (#-usage)
-  - [Contributing] (#-contributing)
-  - [Tests] (#-tests)
-  - [Questions] (#-questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Test](#test)
+  - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
   Run npm install inquirer to install
@@ -20,7 +21,9 @@
   Used to generate a README file for any project
 
   ## Demo
-  ![Watch-video] (https://drive.google.com/file/d/1WHBmsVsJuXTG4BEuK8jpRx1j5G66RaKF/view)
+  - [![video demo of application]](./src/README.md-Video.mp4)(https://drive.google.com/file/d/1WHBmsVsJuXTG4BEuK8jpRx1j5G66RaKF/view)
+
+  ![Fritz README Generator](./src/README-Generator.gif)
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -33,8 +36,8 @@
   No tests are included on this project
 
   ## Questions
-  Contact rachelfritz0@gmail.com
-  Find me on GitHub: [rachelf0] (https://github.com/rachelf0) 
-  If you have any questions, please email me at: rachelfritz0@gmail.com
-  This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)
+  - Contact rachelfritz0@gmail.com
+  - Find me on GitHub: [rachelf0] (https://github.com/rachelf0) 
+  - If you have any questions, please email me at: rachelfritz0@gmail.com
+  - This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)
 

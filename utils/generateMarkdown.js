@@ -8,12 +8,13 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  - [Description] (#-description)
-  - [Installation] (#-installation)
-  - [Usage] (#-usage)
-  - [Contributing] (#-contributing)
-  - [Tests] (#-tests)
-  - [Questions] (#-questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contributing)
+  - [Test](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
   ${data.installation}
@@ -33,9 +34,9 @@ function generateMarkdown(data) {
 
   ## Questions
   ${data.questions}
-  Find me on GitHub: [${data.username}] (https://github.com/${data.username}) 
-  If you have any questions, please email me at: ${data.email}
-  This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)
+  - Find me on GitHub: [${data.username}] (https://github.com/${data.username}) 
+  - If you have any questions, please email me at: ${data.email}
+  - This README was generated with ❤️ by [generate-rm] (https://github.com/rachelf0/generate-rm)
 
 `;
 }
